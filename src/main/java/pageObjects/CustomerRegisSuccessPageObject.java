@@ -26,4 +26,9 @@ public class CustomerRegisSuccessPageObject extends BasePage {
         clickToElement(driver, CustomerRegisSuccessPageUI.CONTINUE_LINK);
         return PageGenerateManager.getHomePage(driver);
     }
+
+    public String getCustomerID() {
+        waitForElementVisible(driver, CustomerRegisSuccessPageUI.CUSTOMER_ID_TEXT);
+        return getElementAttribute(driver, CustomerRegisSuccessPageUI.CUSTOMER_ID_TEXT, "textContent");
+    }
 }

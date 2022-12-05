@@ -1,7 +1,22 @@
-[2022-12-05 09:36:14,174] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
-[2022-12-05 09:36:14,401] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
-[2022-12-05 09:36:14,506] Pre Condition - Step 03: Click to 'Login' button
-[2022-12-05 09:36:15,709] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
-[2022-12-05 09:36:15,822]  -------------------------- PASSED -------------------------- 
-[2022-12-05 09:36:19,663] OS name = windows 10
-[2022-12-05 09:36:19,663] Driver instance name = firefoxdriver: firefox on windows (a80e784f-4429-4b22-b3dd-77a0fe824f83)
+[2022-12-05 15:56:13,460] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 15:56:13,603] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 15:56:13,681] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 15:56:14,738] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 15:56:14,803]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:17,984]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,030]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,077]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,120]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,168]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,214]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,262]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,308]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,354]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:21,628] OS name = windows 11
+[2022-12-05 15:56:21,628] Driver instance name = firefoxdriver: firefox on windows (60915813-ad05-4116-92d5-348b74338910)
+[2022-12-05 15:56:21,662] Dismissed user prompt dialog: No Changes made to Customer records: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9JOSJVK', ip: '172.24.176.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1832, moz:profile: C:\Users\Van Nguyen\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 60915813-ad05-4116-92d5-348b74338910

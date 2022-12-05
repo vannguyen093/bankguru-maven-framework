@@ -46,10 +46,10 @@ public class BaseTest {
                 break;
         }
         driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         driver.get(enviromentName);
         return driver;
     }
-
 
     public WebDriver getDriverInstance() {
         return this.driver;
@@ -106,7 +106,7 @@ public class BaseTest {
 
     protected int generateFakeNumber() {
         Random random = new Random();
-        return random.nextInt(99999);
+        return random.nextInt(999999)+100000;
     }
 
     public void deleteAllureReport() {

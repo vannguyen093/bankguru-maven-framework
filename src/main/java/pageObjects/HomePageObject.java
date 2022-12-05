@@ -17,8 +17,4 @@ public class HomePageObject extends BasePage {
         return isElementDisplayed(driver, HomePageUI.WELCOME_HEADER);
     }
 
-    public void clickToMenuLinkByMenuText(String menuText) {
-        waitForElementClickable(driver, BasePageUI.MENU_LINK_BY_MENU_TEXT, menuText);
-        clickToElement(driver, BasePageUI.MENU_LINK_BY_MENU_TEXT, menuText);
-    }
 }

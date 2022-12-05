@@ -26,4 +26,12 @@ public class PageGenerateManager {
     public static EditCustomerPageObject getEditCustomerPage(WebDriver driver){
         return new EditCustomerPageObject(driver);
     }
+
+    public static PreNewAccountPageObject getPreNewAccountPage(WebDriver driver){
+        return new PreNewAccountPageObject(driver);
+    }
+
+    public static NewAccountPageObject getNewAccountPage(WebDriver driver){
+        return new NewAccountPageObject(driver);
+    }
 }

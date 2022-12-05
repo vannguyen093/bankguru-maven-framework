@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import pageObjects.*;
 import reportConfig.ExtentTestManager;
+import ultilities.DataHelper;
 import ultilities.Environment;
 
 import java.lang.reflect.Method;
@@ -24,26 +25,41 @@ public class Payment_01 extends BaseTest {
         driver = getBrowserDriver(browserName, env.appUrl(), evnName, osName, osVersion, ipAddress, portNumber);
 
         loginPage = PageGenerateManager.getLoginPage(driver);
-        userData = UserDataMapper.getUserData();
+//        userData = UserDataMapper.getUserData();
+        dataHelper = DataHelper.getDataHelper();
         userID = "mngr460024";
         password = "EjyjEdE";
 
-        customerName = userData.getCustomerName() + " " + generateFakeNumber();
-        dateOfBirth = userData.getDateOfBirth();
-        address = userData.getAddress();
-        city = userData.getCity();
-        state = userData.getState();
-        pin = userData.getPin();
-        mobileNumber = userData.getMobileNumber();
-        email = userData.getEmail() + generateFakeNumber() + "@gmail.com";
-        customerPassword = userData.getPassword();
+//        customerName = userData.getCustomerName();
+        customerName = dataHelper.getCustomerName();
+//        dateOfBirth = userData.getDateOfBirth();
+//        address = userData.getAddress();
+        address = dataHelper.getAddress();
+//        city = userData.getCity();
+        city = dataHelper.getCity();
+//        state = userData.getState();
+        state = dataHelper.getState();
+//        pin = userData.getPin();
+        pin = "123456";
+//        mobileNumber = userData.getMobileNumber();
+        mobileNumber = "0905" + generateFakeNumber();
+//        email = userData.getEmail() + generateFakeNumber() + "@gmail.com";
+        email = dataHelper.getEmail();
+//        customerPassword = userData.getPassword();
+        customerPassword = dataHelper.getPassword();
 
-        editAddress = userData.getAddress() + generateFakeNumber();
-        editCity = userData.getCity() + generateFakeNumber();
-        editState = userData.getState() + generateFakeNumber();
-        editPin = userData.getEditPin();
-        editMobileNumber = userData.getEditMobileNumber();
-        editEmail = userData.getEmail() + generateFakeNumber() + "@gmail.com"
+//        editAddress = userData.getAddress() + " " + generateFakeNumber();
+        editAddress = dataHelper.getAddress();
+//        editCity = userData.getCity() + generateFakeNumber();
+        editCity = dataHelper.getCity();
+//        editState = userData.getState() + generateFakeNumber();
+        editState = dataHelper.getState();
+//        editPin = userData.getEditPin();
+        editPin = "456312";
+//        editMobileNumber = userData.getEditMobileNumber();
+        editMobileNumber = "0905" + generateFakeNumber();
+//        editEmail = userData.getEmail() + generateFakeNumber() + "@gmail.com";
+        editEmail = dataHelper.getEmail();
 
         log.info("Pre Condition - Step 01: Input to 'UserID' with value: '" + userID + "'");
         loginPage.inputToUserUI(userID);
@@ -62,7 +78,7 @@ public class Payment_01 extends BaseTest {
     public void Payment_01_Create_New_Customer(Method method) {
         ExtentTestManager.startTest(method.getName(), "Create New Customer");
         ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 01: Open 'New Customer' page");
-        homePage.clickToMenuLinkByMenuText("New Customer");
+        homePage.clickToMenuLinkByMenuText(driver,"New Customer");
         newCustomerPage = PageGenerateManager.getNewCustomerPage(driver);
 
         ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 02: Input to 'Customer Name' text box with value: '" + customerName + "'");
@@ -72,7 +88,7 @@ public class Payment_01 extends BaseTest {
         newCustomerPage.selectItemAtGenderRadioByElementName("m");
 
         ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 04: Input to 'Date of Birth' date picker with value: '" + dateOfBirth + "'");
-        newCustomerPage.inputToDateOfBirthDatePicker("05301993");
+        newCustomerPage.inputToDateOfBirthDatePicker("05/30/1993");
 
         ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 05: Input to 'Address' text area with value: '" + address + "'");
         newCustomerPage.inputToAddressTextArea(address);
@@ -100,33 +116,33 @@ public class Payment_01 extends BaseTest {
         customerRegisSuccessPage = PageGenerateManager.getCustomerRegisSuccessPage(driver);
 
         ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 13: Get 'Customer ID' when register success");
-        customerID = customerRegisSuccessPage.getCustomerSuccessValueByTextField("Customer ID");
+        customerID = customerRegisSuccessPage.getCustomerID();
 
         ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 13: Verify the Create New Customer success message is displayed");
         verifyTrue(customerRegisSuccessPage.isRegisterSuccessMessageDisplayed());
 
-        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 14: Verify the 'Customer Name' is the same as the '" + customerName + "'");
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 14: Verify the 'Customer Name' is the same as value '" + customerName + "'");
         verifyEquals(customerRegisSuccessPage.getCustomerSuccessValueByTextField("Customer Name"), customerName);
 
-        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 15: Verify the 'Date of Birthday' is the same as the '" + dateOfBirth + "'");
-        verifyEquals(customerRegisSuccessPage.getCustomerSuccessValueByTextField("Birthdate"), dateOfBirth);
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 15: Verify the 'Date of Birthday' is the same as value '1993-05-30'");
+        verifyEquals(customerRegisSuccessPage.getCustomerSuccessValueByTextField("Birthdate"), "1993-05-30");
 
-        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 16: Verify the 'Address' is the same as the '" + dateOfBirth + "'");
-        verifyEquals(customerRegisSuccessPage.getCustomerSuccessValueByTextField("Address"), dateOfBirth);
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 16: Verify the 'Address' is the same as value '" + address + "'");
+        verifyEquals(customerRegisSuccessPage.getCustomerSuccessValueByTextField("Address"), address);
 
-        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 16: Verify the 'City' is the same as the '" + city + "'");
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 16: Verify the 'City' is the same as value '" + city + "'");
         verifyEquals(customerRegisSuccessPage.getCustomerSuccessValueByTextField("City"), city);
 
-        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 17: Verify the 'State' is the same as the '" + state + "'");
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 17: Verify the 'State' is the same as value '" + state + "'");
         verifyEquals(customerRegisSuccessPage.getCustomerSuccessValueByTextField("State"), state);
 
-        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 18: Verify the 'Pin' is the same as the '" + pin + "'");
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 18: Verify the 'Pin' is the same as value '" + pin + "'");
         verifyEquals(customerRegisSuccessPage.getCustomerSuccessValueByTextField("Pin"), pin);
 
-        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 19: Verify the 'Mobile Number' is the same as the '" + mobileNumber + "'");
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 19: Verify the 'Mobile Number' is the same as value '" + mobileNumber + "'");
         verifyEquals(customerRegisSuccessPage.getCustomerSuccessValueByTextField("Mobile No."), mobileNumber);
 
-        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 20: Verify the 'Email' is the same as the '" + email + "'");
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 20: Verify the 'Email' is the same as value '" + email + "'");
         verifyEquals(customerRegisSuccessPage.getCustomerSuccessValueByTextField("Email"), email);
 
         ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 21: Click to 'Continue' link");
@@ -137,7 +153,7 @@ public class Payment_01 extends BaseTest {
     public void Payment_02_Edit_Customer(Method method) {
         ExtentTestManager.startTest(method.getName(), "Edit Customer");
         ExtentTestManager.getTest().log(Status.INFO, "Edit Customer - Step 01: Open 'Edit Customer' page");
-        homePage.clickToMenuLinkByMenuText("Edit Customer");
+        homePage.clickToMenuLinkByMenuText(driver,"Edit Customer");
         preEditCustomerPage = PageGenerateManager.getPreEditCustomerPage(driver);
 
         ExtentTestManager.getTest().log(Status.INFO, "Edit Customer - Step 02: Input to 'Customer ID' text box with value: '" + customerID + "'");
@@ -148,7 +164,7 @@ public class Payment_01 extends BaseTest {
         editCustomerPage = PageGenerateManager.getEditCustomerPage(driver);
 
         ExtentTestManager.getTest().log(Status.INFO, "Edit Customer - Step 04: Input edit customer address to 'Address' text box with value: '" + editAddress + "'");
-        editCustomerPage.inputToTextboxByName("addr", editAddress);
+        editCustomerPage.inputToEditAddressTextArea(editAddress);
 
         ExtentTestManager.getTest().log(Status.INFO, "Edit Customer - Step 05: Input edit customer city to 'City' text box with value: '" + editCity + "'");
         editCustomerPage.inputToTextboxByName("city", editCity);
@@ -165,8 +181,25 @@ public class Payment_01 extends BaseTest {
         ExtentTestManager.getTest().log(Status.INFO, "Edit Customer - Step 09: Input edit customer email to 'Email' text box with value: '" + editEmail + "'");
         editCustomerPage.inputToTextboxByName("emailid", editEmail);
 
-        ExtentTestManager.getTest().log(Status.INFO, "Create New Customer - Step 10: Click to 'Submit' button");
+        ExtentTestManager.getTest().log(Status.INFO, "Edit Customer - Step 10: Click to 'Submit' button");
         editCustomerPage.clickToSubmitButton(driver);
+        preEditCustomerPage = PageGenerateManager.getPreEditCustomerPage(driver);
+    }
+
+    public void Payment_03_Create_New_Account(Method method) {
+        ExtentTestManager.startTest(method.getName(), "Create New Account with existing Customer ID");
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Account - Step 01: Open 'New Account' page");
+        preEditCustomerPage.clickToMenuLinkByMenuText(driver,"New Account");
+        preNewAccountPage = PageGenerateManager.getPreNewAccountPage(driver);
+
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Account  - Step 01: Open 'Edit Customer' page");
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Account  - Step 02: Input to 'Customer ID' with existing customer ID: '" + customerID + "'");
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Account  - Step 03: Select item at 'Account type' dropdown with value: ''" + accountType + "'");
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Account  - Step 04: Input to 'Initial deposit' with value: '" + initialDeposit + "'");
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Account - Step 05: Click to 'Submit' button");
+        preNewAccountPage.clickToSubmitButton(driver);
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Account - Step 06: Verify the create successfully message is displayed");
+        ExtentTestManager.getTest().log(Status.INFO, "Create New Account - Step 07: Verify the 'Current Amount' is exactly with 'Initial deposit' value: '" + initialDeposit + "'");
     }
 
     @AfterClass(alwaysRun = true)
@@ -176,8 +209,9 @@ public class Payment_01 extends BaseTest {
 
     private WebDriver driver;
     private String customerName, dateOfBirth, address, city, state, pin, mobileNumber, email, customerPassword;
-    private String editAddress, editCity, editState, editPin, editMobileNumber, editEmail;
+    private String editCustomerName, editAddress, editCity, editState, editPin, editMobileNumber, editEmail;
     private String userID, password, customerID;
+    private DataHelper dataHelper;
     private UserDataMapper userData;
     Environment env;
     LoginPageObject loginPage;
@@ -186,4 +220,5 @@ public class Payment_01 extends BaseTest {
     CustomerRegisSuccessPageObject customerRegisSuccessPage;
     PreEditCustomerPageObject preEditCustomerPage;
     EditCustomerPageObject editCustomerPage;
+    PreNewAccountPageObject preNewAccountPage;
 }

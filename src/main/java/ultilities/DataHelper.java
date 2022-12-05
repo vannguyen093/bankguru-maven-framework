@@ -29,7 +29,7 @@ public class DataHelper {
         return faker.internet().emailAddress();
     }
     public String getPhone() {
-        return faker.phoneNumber().phoneNumber();
+        return faker.phoneNumber().cellPhone().replace("-", "");
     }
     public String getPassword() {
         return faker.internet().password();

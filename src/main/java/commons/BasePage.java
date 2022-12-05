@@ -519,7 +519,7 @@ public class BasePage {
         getWebElement(driver, GlobalConstants.UPLOAD_FILE).sendKeys(fullFileName);
     }
 
-//    @Step("Navigate to Dashboard Page")
+    //    @Step("Navigate to Dashboard Page")
 //    public void openPagesAtDashboardByPageName(WebDriver driver, String pageName) {
 //        waitForElementClickable(driver, BasePageLiveGuruUI.DYNAMIC_PAGE_AT_DASHBOARD_AREA, pageName);
 //        clickToElement(driver, BasePageLiveGuruUI.DYNAMIC_PAGE_AT_DASHBOARD_AREA, pageName);
@@ -555,89 +555,10 @@ public class BasePage {
         clickToElement(driver, BasePageUI.MENU_LINK_BY_MENU_TEXT, menuText);
         return PageGenerateManager.getLoginPage(driver);
     }
-    //
-//    /**
-//     * Enter to dynamic Textbox by ID
-//     *
-//     * @param driver
-//     * @param textboxID
-//     * @param value
-//     * @author VanNL
-//     */
-//    public void inputToTextboxByID(WebDriver driver, String textboxID, String value) {
-//        waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
-//        sendkeysToElement(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, value, textboxID);
-//    }
-//
-//    /**
-//     * Click to dynamic Button by Text
-//     *
-//     * @param driver
-//     * @param buttonText
-//     * @author VanNL
-//     */
-//    public void clickToButtonByText(WebDriver driver, String buttonText) {
-//        waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT, buttonText);
-//        clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT, buttonText);
-//    }
-//
-//    /**
-//     * Select item in dynamic dropdown by Name attribute
-//     *
-//     * @param driver
-//     * @param dropdownAttributeName
-//     * @param itemValue
-//     * @author VanNL
-//     */
-//    public void selectToDropdownByName(WebDriver driver, String dropdownAttributeName, String itemValue) {
-//        waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName);
-//        selectItemInDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, itemValue, dropdownAttributeName);
-//    }
-//
-//    /**
-//     * Click to dynamic Radio Button by Label Text
-//     *
-//     * @param driver
-//     * @param labelText
-//     * @author VanNL
-//     */
-//    public void clickToRadioButtonByLabelText(WebDriver driver, String labelText) {
-//        waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL_TEXT, labelText);
-//        checkToDefaultCheckboxRadio(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL_TEXT, labelText);
-//    }
-//
-//    /**
-//     * Click to dynamic Checkbox by Label Text
-//     *
-//     * @param driver
-//     * @param labelText
-//     * @author VanNL
-//     */
-//    public void clickToCheckboxByLabelText(WebDriver driver, String labelText) {
-//        waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL_TEXT, labelText);
-//        checkToDefaultCheckboxRadio(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL_TEXT, labelText);
-//    }
-//
-//    /**
-//     * Get value in textbox by textbox I
-//     *
-//     * @param driver
-//     * @param textboxID
-//     * @return
-//     */
-//    public String getTextboxValueById(WebDriver driver, String textboxID) {
-//        waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
-//        return getElementAttribute(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
-//    }
-//
-//    public UserHomePO openUserSite(WebDriver driver, String userUrl) {
-//        openPageUrl(driver, userUrl);
-//        return PageGenerateManager.getUserHomePage(driver);
-//    }
-//
-    public AdminDashboardPO openAdminSite(WebDriver driver, String adminUrl) {
-        openPageUrl(driver, adminUrl);
-        return PageGenerateManager.getAdminDashboardPage(driver);
+
+    public void clickToMenuLinkByMenuText(WebDriver driver, String menuText) {
+        waitForElementClickable(driver, BasePageUI.MENU_LINK_BY_MENU_TEXT, menuText);
+        clickToElement(driver, BasePageUI.MENU_LINK_BY_MENU_TEXT, menuText);
     }
 
     public void clickToSubmitButton(WebDriver driver) {

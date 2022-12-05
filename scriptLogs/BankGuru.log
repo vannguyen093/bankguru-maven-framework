@@ -85,3 +85,192 @@
 [2022-12-05 09:36:15,822]  -------------------------- PASSED -------------------------- 
 [2022-12-05 09:36:19,663] OS name = windows 10
 [2022-12-05 09:36:19,663] Driver instance name = firefoxdriver: firefox on windows (a80e784f-4429-4b22-b3dd-77a0fe824f83)
+[2022-12-05 14:04:35,264] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 14:04:35,800] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 14:04:35,933] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 14:04:37,403] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 14:04:37,536]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:04:42,750] OS name = windows 11
+[2022-12-05 14:04:42,750] Driver instance name = firefoxdriver: firefox on windows (753b4ea8-f4a9-425f-84b9-7ea3a7bac5ce)
+[2022-12-05 14:13:12,985] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 14:13:13,269] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 14:13:13,456] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 14:13:15,380] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 14:13:15,529]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:13:19,465] OS name = windows 11
+[2022-12-05 14:13:19,465] Driver instance name = firefoxdriver: firefox on windows (65cece43-2b3e-4940-99ec-dfdb04f155bc)
+[2022-12-05 14:23:25,251] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 14:23:25,596] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 14:23:25,851] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 14:23:27,773] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 14:23:27,842]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:23:31,256]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:23:31,300]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:23:31,377]  -------------------------- FAILED -------------------------- 
+[2022-12-05 14:23:31,594]  -------------------------- FAILED -------------------------- 
+[2022-12-05 14:23:31,641]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:23:31,688]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:23:31,737]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:23:31,785]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:23:31,833]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:24:35,606] OS name = windows 11
+[2022-12-05 14:24:35,607] Driver instance name = firefoxdriver: firefox on windows (bb8cfca3-255b-4bdc-a1dd-13cafb482896)
+[2022-12-05 14:28:53,918] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 14:28:54,098] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 14:28:54,184] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 14:28:55,725] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 14:28:55,786]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:28:58,751]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:28:58,795]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:28:58,844]  -------------------------- FAILED -------------------------- 
+[2022-12-05 14:28:58,928]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:28:58,985]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:28:59,073]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:28:59,118]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:28:59,167]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:28:59,215]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:29:33,503] OS name = windows 11
+[2022-12-05 14:29:33,504] Driver instance name = firefoxdriver: firefox on windows (0e7e5987-0086-45f2-b34f-22401abae6ed)
+[2022-12-05 14:29:33,666] Dismissed user prompt dialog: No Changes made to Customer records: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9JOSJVK', ip: '172.24.176.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15992, moz:profile: C:\Users\Van Nguyen\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0e7e5987-0086-45f2-b34f-22401abae6ed
+[2022-12-05 14:35:16,255] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 14:35:16,491] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 14:35:16,687] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 14:35:18,693] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 14:35:18,870]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:35:22,839]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:35:22,880]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:35:22,929]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:35:22,975]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:35:23,020]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:35:23,066]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:35:23,112]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:35:23,159]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:35:23,206]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:35:55,322] OS name = windows 11
+[2022-12-05 14:35:55,323] Driver instance name = firefoxdriver: firefox on windows (4a1bd1fd-4c85-4dd4-8120-d65966672e1c)
+[2022-12-05 14:35:55,332] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9JOSJVK', ip: '172.24.176.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9500, moz:profile: C:\Users\Van Nguyen\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4a1bd1fd-4c85-4dd4-8120-d65966672e1c
+[2022-12-05 14:38:29,036] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 14:38:29,257] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 14:38:29,954] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 14:38:31,986] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 14:38:32,183]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:38:36,164]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:38:36,223]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:38:36,289]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:38:36,352]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:38:36,413]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:38:36,454]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:38:36,501]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:38:36,547]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:38:36,595]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:39:11,443] OS name = windows 11
+[2022-12-05 14:39:11,443] Driver instance name = firefoxdriver: firefox on windows (3bb18ff3-882b-4e85-98c5-56de5a58013e)
+[2022-12-05 14:39:14,987] Dismissed user prompt dialog: No Changes made to Customer records: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9JOSJVK', ip: '172.24.176.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9696, moz:profile: C:\Users\Van Nguyen\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3bb18ff3-882b-4e85-98c5-56de5a58013e
+[2022-12-05 14:40:10,880] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 14:40:11,123] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 14:40:11,318] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 14:40:13,356] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 14:40:13,417]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:40:16,527]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:40:16,570]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:40:16,616]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:40:16,662]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:40:16,707]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:40:16,754]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:40:16,802]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:40:16,849]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:40:16,896]  -------------------------- PASSED -------------------------- 
+[2022-12-05 14:40:19,987] OS name = windows 11
+[2022-12-05 14:40:19,988] Driver instance name = firefoxdriver: firefox on windows (e33c38f6-3544-46ba-90e0-1356f0198ec2)
+[2022-12-05 14:40:20,018] Dismissed user prompt dialog: No Changes made to Customer records: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9JOSJVK', ip: '172.24.176.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5572, moz:profile: C:\Users\Van Nguyen\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e33c38f6-3544-46ba-90e0-1356f0198ec2
+[2022-12-05 15:00:35,862] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 15:00:36,104] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 15:00:36,235] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 15:00:37,588] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 15:00:37,716]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:00:42,391] OS name = windows 11
+[2022-12-05 15:00:42,392] Driver instance name = firefoxdriver: firefox on windows (b45e732f-0ac3-45f7-8639-0efb0ba3487b)
+[2022-12-05 15:22:17,389] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 15:22:17,874] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 15:22:18,067] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 15:22:19,619] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 15:22:19,767]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:22:25,526] OS name = windows 11
+[2022-12-05 15:22:25,527] Driver instance name = firefoxdriver: firefox on windows (e0dbf181-d2f9-4652-9139-790e8eb3433a)
+[2022-12-05 15:24:09,368] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 15:24:10,156] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 15:24:10,489] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 15:24:13,453] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 15:24:13,630]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:24:20,395] OS name = windows 11
+[2022-12-05 15:24:20,395] Driver instance name = firefoxdriver: firefox on windows (c97a2aad-6582-4fd1-aaa4-3043e1f5334b)
+[2022-12-05 15:25:17,915] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 15:25:18,201] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 15:25:18,307] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 15:25:19,416] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 15:25:19,492]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:25:22,825] OS name = windows 11
+[2022-12-05 15:25:22,825] Driver instance name = firefoxdriver: firefox on windows (f011a3f2-81d8-4406-9b0b-febd9d91a61c)
+[2022-12-05 15:28:54,601] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 15:28:55,065] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 15:28:55,176] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 15:28:56,897] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 15:28:56,966]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:29:01,889] OS name = windows 11
+[2022-12-05 15:29:01,889] Driver instance name = firefoxdriver: firefox on windows (e642dc04-13be-4802-992c-6e0385cc0013)
+[2022-12-05 15:52:33,869] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 15:52:34,213] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 15:52:34,481] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 15:52:36,929] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 15:52:37,018]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:52:41,586] OS name = windows 11
+[2022-12-05 15:52:41,587] Driver instance name = firefoxdriver: firefox on windows (c4458270-59e8-41c3-9fe1-c9dc77592f65)
+[2022-12-05 15:53:25,146] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 15:53:25,339] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 15:53:25,462] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 15:53:26,692] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 15:53:26,754]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:53:29,962] OS name = windows 11
+[2022-12-05 15:53:29,963] Driver instance name = firefoxdriver: firefox on windows (f3cb4138-6b35-44e1-9296-fdcf0a190d5f)
+[2022-12-05 15:56:13,460] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 15:56:13,603] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 15:56:13,681] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 15:56:14,738] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 15:56:14,803]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:17,984]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,030]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,077]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,120]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,168]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,214]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,262]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,308]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:18,354]  -------------------------- PASSED -------------------------- 
+[2022-12-05 15:56:21,628] OS name = windows 11
+[2022-12-05 15:56:21,628] Driver instance name = firefoxdriver: firefox on windows (60915813-ad05-4116-92d5-348b74338910)
+[2022-12-05 15:56:21,662] Dismissed user prompt dialog: No Changes made to Customer records: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9JOSJVK', ip: '172.24.176.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1832, moz:profile: C:\Users\Van Nguyen\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 60915813-ad05-4116-92d5-348b74338910

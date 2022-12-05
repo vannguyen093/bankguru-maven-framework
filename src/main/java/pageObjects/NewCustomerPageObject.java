@@ -28,6 +28,7 @@ public class NewCustomerPageObject extends BasePage {
 
     public void inputToDateOfBirthDatePicker(String dateOfBirthText) {
         waitForElementVisible(driver, NewCustomerPageUI.DATE_OF_BIRTH_DATEPICKER);
+        removeAttributeInDOMByJS(driver, NewCustomerPageUI.DATE_OF_BIRTH_DATEPICKER, "type");
         sendkeysToElement(driver, NewCustomerPageUI.DATE_OF_BIRTH_DATEPICKER, dateOfBirthText);
     }
 }
