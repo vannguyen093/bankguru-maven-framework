@@ -1,0 +1,14 @@
+1670207745810	geckodriver	INFO	Listening on 127.0.0.1:30873
+1670207758430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Hong Trang\\AppData\\Local\\Temp\\rust_mozprofilePOGFSt"
+1670207759835	Marionette	INFO	Marionette enabled
+1670207759843	Marionette	INFO	Listening on port 54521
+Read port: 54521
+1670207760007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://fa73a2c1-93a2-431c-8b4f-00daa6b8875d/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 15ms)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Hong Trang\\AppData\\Local\\Temp\\rust_mozprofilePOGFSt\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.guru99.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.guru99.com."
+1670207775021	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/DateTimePickerChild.jsm, line 62: TypeError: aElement is null
+1670207779685	Marionette	INFO	Stopped listening on port 54521
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.137438953475

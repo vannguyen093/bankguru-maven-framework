@@ -1,0 +1,87 @@
+[2022-12-04 15:28:47,841] OS name = windows 10
+[2022-12-04 15:28:47,842] 
+[2022-12-04 15:34:36,008] OS name = windows 10
+[2022-12-04 15:34:36,009] 
+[2022-12-04 15:49:58,397] Pre Condition - Step 01: Input to 'UserID' with value: mngr460024
+[2022-12-04 15:49:58,640] Pre Condition - Step 02: Input to 'Password' with value EjyjEdE
+[2022-12-04 15:49:58,793] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-04 15:50:01,395] OS name = windows 10
+[2022-12-04 15:50:01,395] Driver instance name = firefoxdriver: firefox on windows (cd69a1dc-47c6-422f-8c0b-69d3f95b73d5)
+[2022-12-04 15:59:44,142] Pre Condition - Step 01: Input to 'UserID' with value: mngr460024
+[2022-12-04 15:59:44,493] Pre Condition - Step 02: Input to 'Password' with value EjyjEdE
+[2022-12-04 15:59:44,737] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-04 15:59:46,805] Pre Condition - Step 04: Verify the Welcome message at Home Page is disabled
+[2022-12-04 15:59:47,040]  -------------------------- PASSED -------------------------- 
+[2022-12-04 15:59:48,424] OS name = windows 10
+[2022-12-04 15:59:48,424] Driver instance name = firefoxdriver: firefox on windows (6a1c5f4e-ec18-4c0f-806a-3b2bb418ea64)
+[2022-12-04 18:12:21,650] OS name = windows 10
+[2022-12-04 18:12:21,653] 
+[2022-12-04 18:17:12,178] Pre Condition - Step 01: Input to 'UserID' with value: mngr460024
+[2022-12-04 18:17:12,533] Pre Condition - Step 02: Input to 'Password' with value EjyjEdE
+[2022-12-04 18:17:12,669] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-04 18:17:13,842] Pre Condition - Step 04: Verify the Welcome message at Home Page is disabled
+[2022-12-04 18:17:14,009]  -------------------------- PASSED -------------------------- 
+[2022-12-04 18:17:14,368] OS name = windows 10
+[2022-12-04 18:17:14,369] Driver instance name = firefoxdriver: firefox on windows (1a05bf72-2a93-4966-9d25-0dcbce6ec07f)
+[2022-12-04 18:17:42,745] OS name = windows 10
+[2022-12-04 18:17:42,747] 
+[2022-12-04 18:19:05,064] Pre Condition - Step 01: Input to 'UserID' with value: mngr460024
+[2022-12-04 18:19:05,374] Pre Condition - Step 02: Input to 'Password' with value EjyjEdE
+[2022-12-04 18:19:05,511] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-04 18:19:06,876] Pre Condition - Step 04: Verify the Welcome message at Home Page is disabled
+[2022-12-04 18:19:07,027]  -------------------------- PASSED -------------------------- 
+[2022-12-04 18:19:07,376] OS name = windows 10
+[2022-12-04 18:19:07,381] Driver instance name = firefoxdriver: firefox on windows (2a2cf83b-6a0a-4097-a7d3-b5974de37164)
+[2022-12-04 22:30:16,876] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-04 22:30:17,303] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-04 22:30:17,560] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-04 22:30:20,568] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-04 22:30:20,846]  -------------------------- PASSED -------------------------- 
+[2022-12-04 22:30:57,498] OS name = windows 10
+[2022-12-04 22:30:57,501] Driver instance name = firefoxdriver: firefox on windows (aa4ecf12-f635-4e25-b535-0539cd1aa52e)
+[2022-12-04 22:32:15,686] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-04 22:32:15,966] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-04 22:32:16,093] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-04 22:32:17,764] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-04 22:32:17,977]  -------------------------- PASSED -------------------------- 
+[2022-12-04 22:32:54,190] OS name = windows 10
+[2022-12-04 22:32:54,193] Driver instance name = firefoxdriver: firefox on windows (5b7f97bd-ca07-4c18-95f0-51583fc5de9e)
+[2022-12-04 22:36:34,084] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-04 22:36:34,362] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-04 22:36:34,505] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-04 22:36:35,783] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-04 22:36:35,890]  -------------------------- PASSED -------------------------- 
+[2022-12-04 22:36:43,094] OS name = windows 10
+[2022-12-04 22:36:43,095] Driver instance name = firefoxdriver: firefox on windows (4ff89c18-154d-4d71-9cef-3c24a515f5d2)
+[2022-12-04 22:46:15,990] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-04 22:46:16,340] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-04 22:46:16,495] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-04 22:46:18,255] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-04 22:46:18,369]  -------------------------- PASSED -------------------------- 
+[2022-12-04 22:46:25,638] OS name = windows 10
+[2022-12-04 22:46:25,638] Driver instance name = firefoxdriver: firefox on windows (97a22eb8-4b0c-48c9-b3a9-7727e5dc1efd)
+[2022-12-05 09:06:40,428] OS name = windows 10
+[2022-12-05 09:06:40,430] Driver instance name = firefoxdriver: firefox on windows (b1f19910-5ee1-475e-828e-861c306aa990)
+[2022-12-05 09:10:51,089] OS name = windows 10
+[2022-12-05 09:10:51,091] Driver instance name = firefoxdriver: firefox on windows (d9177e1c-f64c-4c71-b15b-71547acbc327)
+[2022-12-05 09:12:34,612] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 09:12:35,162] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 09:12:35,292] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 09:12:37,576] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 09:12:37,756]  -------------------------- PASSED -------------------------- 
+[2022-12-05 09:12:44,276] OS name = windows 10
+[2022-12-05 09:12:44,277] Driver instance name = firefoxdriver: firefox on windows (c60a0bb4-7caf-4f48-a529-be464051e898)
+[2022-12-05 09:33:46,997] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 09:33:47,217] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 09:33:47,318] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 09:33:48,551] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 09:33:48,733]  -------------------------- PASSED -------------------------- 
+[2022-12-05 09:33:53,921] OS name = windows 10
+[2022-12-05 09:33:53,921] Driver instance name = firefoxdriver: firefox on windows (7c860bda-1aa7-44fa-a75f-42f0d75729cd)
+[2022-12-05 09:36:14,174] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 09:36:14,401] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 09:36:14,506] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 09:36:15,709] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 09:36:15,822]  -------------------------- PASSED -------------------------- 
+[2022-12-05 09:36:19,663] OS name = windows 10
+[2022-12-05 09:36:19,663] Driver instance name = firefoxdriver: firefox on windows (a80e784f-4429-4b22-b3dd-77a0fe824f83)

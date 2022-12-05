@@ -1,0 +1,7 @@
+[2022-12-05 09:36:14,174] Pre Condition - Step 01: Input to 'UserID' with value: 'mngr460024'
+[2022-12-05 09:36:14,401] Pre Condition - Step 02: Input to 'Password' with value 'EjyjEdE'
+[2022-12-05 09:36:14,506] Pre Condition - Step 03: Click to 'Login' button
+[2022-12-05 09:36:15,709] Pre Condition - Step 04: Verify the Welcome message at Home Page is displayed
+[2022-12-05 09:36:15,822]  -------------------------- PASSED -------------------------- 
+[2022-12-05 09:36:19,663] OS name = windows 10
+[2022-12-05 09:36:19,663] Driver instance name = firefoxdriver: firefox on windows (a80e784f-4429-4b22-b3dd-77a0fe824f83)

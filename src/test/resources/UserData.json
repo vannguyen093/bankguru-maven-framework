@@ -1,0 +1,13 @@
+{
+    "customerName": "John Doe",
+    "address": "Phan Tu",
+    "city": "Da Nang",
+    "state": "Da Nang",
+    "pin": "123456",
+    "mobileNumber": "0969999999",
+    "email": "vannguyen",
+    "password": "123456",
+    "dateOfBirth": "05301993",
+    "editPin": "456123",
+    "editMobileNumber": "096999666"
+}
