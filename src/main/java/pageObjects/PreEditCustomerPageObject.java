@@ -11,8 +11,9 @@ public class PreEditCustomerPageObject extends BasePage {
         this.driver = driver;
     }
 
-    public void inputToCustomerIDTextBox(String customerID) {
+    public void inputToCustomerIDTextBox() {
         waitForElementVisible(driver, PreEditCustomerPageUI.CUSTOMER_ID_TEXTBOX);
-        sendkeysToElement(driver, PreEditCustomerPageUI.CUSTOMER_ID_TEXTBOX, customerID);
+        sendkeysToElement(driver, PreEditCustomerPageUI.CUSTOMER_ID_TEXTBOX, readCustomerIdFromTxtFile());
     }
+
 }

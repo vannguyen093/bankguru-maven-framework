@@ -1,8 +1,11 @@
 package pageObjects;
 
 import commons.BasePage;
+import commons.GlobalConstants;
 import org.openqa.selenium.WebDriver;
 import pageUIs.CustomerRegisSuccessPageUI;
+
+import java.io.*;
 
 public class CustomerRegisSuccessPageObject extends BasePage {
     WebDriver driver;
@@ -31,4 +34,18 @@ public class CustomerRegisSuccessPageObject extends BasePage {
         waitForElementVisible(driver, CustomerRegisSuccessPageUI.CUSTOMER_ID_TEXT);
         return getElementAttribute(driver, CustomerRegisSuccessPageUI.CUSTOMER_ID_TEXT, "textContent");
     }
+
+    public void writeCustomerIdIntoTxtFile(){
+        try {
+            File file = new File(GlobalConstants.PROJECT_PATH + "/src/test/resources/customerID.txt");
+            FileWriter fw = new FileWriter(file.getAbsoluteFile());
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(getCustomerID());
+            bw.close();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

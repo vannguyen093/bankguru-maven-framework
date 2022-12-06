@@ -1,18 +1,14 @@
-1670230553511	geckodriver	INFO	Listening on 127.0.0.1:37941
-1670230564944	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Van Nguyen\\AppData\\Local\\Temp\\rust_mozprofile1Ylbn3"
-1670230565708	Marionette	INFO	Marionette enabled
-1670230565713	Marionette	INFO	Listening on port 63304
-Read port: 63304
-1670230565805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: moz-extension://3f6af3e9-5985-4388-a0c9-301e41785a4a/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Van Nguyen\\AppData\\Local\\Temp\\rust_mozprofile1Ylbn3\\search.json.mozlz4", (void 0)))
+1670291776047	geckodriver	INFO	Listening on 127.0.0.1:26039
+1670291788275	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Hong Trang\\AppData\\Local\\Temp\\rust_mozprofileGfxCRH"
+1670291789402	Marionette	INFO	Marionette enabled
+1670291789408	Marionette	INFO	Listening on port 53454
+Read port: 53454
+1670291789779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://3bcb81e3-7cfd-4c93-aba4-16846f4d2895/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Hong Trang\\AppData\\Local\\Temp\\rust_mozprofileGfxCRH\\search.json.mozlz4", (void 0)))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.guru99.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.guru99.com."
-1670230574050	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-[Parent 1832, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
-JavaScript error: https://demo.guru99.com/v4/manager/CustomerRegMsg.php?cid=18975, line 1: TypeError: document.fbal is undefined
-JavaScript error: https://demo.guru99.com/v4/manager/EditCustomer.php, line 1: TypeError: document.fbal.txtaccno is undefined
-JavaScript error: https://demo.guru99.com/v4/manager/EditCustomer.php, line 1: ReferenceError: validatebal is not defined
-JavaScript error: https://demo.guru99.com/v4/manager/editCustomerPage.php, line 1: ReferenceError: validate is not defined
-1670230581667	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://demo.guru99.com/v4/manager/EditCustomer.php, line 1: TypeError: document.fbal.txtaccno is undefined
+1670291799213	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://demo.guru99.com/v4/manager/AccCreateMsg.php?aid=114658, line 1: TypeError: document.fbal is undefined
+1670291802204	Marionette	INFO	Stopped listening on port 53454
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 112: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.137438953475

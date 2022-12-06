@@ -2,6 +2,7 @@ package pageObjects;
 
 import commons.BasePage;
 import org.openqa.selenium.WebDriver;
+import pageUIs.BasePageUI;
 import pageUIs.EditCustomerPageUI;
 
 public class EditCustomerPageObject extends BasePage {
@@ -19,5 +20,13 @@ public class EditCustomerPageObject extends BasePage {
     public void inputToEditAddressTextArea(String value) {
         waitForElementVisible(driver, EditCustomerPageUI.ADDRESS_TEXT_AREA);
         sendkeysToElement(driver, EditCustomerPageUI.ADDRESS_TEXT_AREA, value);
+    }
+
+    public void clickToSubmitButtonAtEditCustomerPage() {
+        waitForElementClickable(driver, BasePageUI.SUBMIT_BUTTON);
+        clickToElement(driver, BasePageUI.SUBMIT_BUTTON);
+
+        waitForAlertPresence(driver);
+        acceptAlert(driver);
     }
 }

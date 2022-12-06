@@ -14,9 +14,12 @@
 
     <test name="Run on Firefox">
         <parameter name="browser" value="Firefox"/>
-        <classes>
-            <class name="com.bankguru.payment.Payment_01"/>
-        </classes>
+        <packages>
+            <package name="com.bankguru.payment" />
+        </packages>
+<!--        <classes>-->
+<!--            <class name="com.bankguru.payment.Payment_02_Create_Edit_Account"/>-->
+<!--        </classes>-->
     </test>
 
 </suite>

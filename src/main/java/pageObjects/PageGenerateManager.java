@@ -27,11 +27,11 @@ public class PageGenerateManager {
         return new EditCustomerPageObject(driver);
     }
 
-    public static PreNewAccountPageObject getPreNewAccountPage(WebDriver driver){
-        return new PreNewAccountPageObject(driver);
-    }
-
     public static NewAccountPageObject getNewAccountPage(WebDriver driver){
         return new NewAccountPageObject(driver);
+    }
+
+    public static RegisterSuccessAccountPageObject getRegisterSuccessAccountPage(WebDriver driver){
+        return new RegisterSuccessAccountPageObject(driver);
     }
 }

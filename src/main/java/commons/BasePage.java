@@ -11,6 +11,9 @@ import pageObjects.LoginPageObject;
 import pageObjects.PageGenerateManager;
 import pageUIs.BasePageUI;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -564,5 +567,25 @@ public class BasePage {
     public void clickToSubmitButton(WebDriver driver) {
         waitForElementClickable(driver, BasePageUI.SUBMIT_BUTTON);
         clickToElement(driver, BasePageUI.SUBMIT_BUTTON);
+    }
+
+    public String readCustomerIdFromTxtFile() {
+        String customerID = null;
+        try {
+            customerID = new String(Files.readAllBytes(Paths.get(GlobalConstants.PROJECT_PATH + "/src/test/resources/customerID.txt")));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return customerID;
+    }
+
+    public String readAccountIdFromTxtFile() {
+        String accountID = null;
+        try {
+            accountID = new String(Files.readAllBytes(Paths.get(GlobalConstants.PROJECT_PATH + "/src/test/resources/accountID.txt")));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return accountID;
     }
 }

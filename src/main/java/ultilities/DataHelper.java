@@ -13,7 +13,7 @@ public class DataHelper {
     }
 
     public String getCustomerName() {
-        return faker.name().fullName();
+        return faker.name().fullName().replace(".", "");
     }
 
     public String getAddress() {
@@ -27,9 +27,6 @@ public class DataHelper {
     }
     public String getEmail() {
         return faker.internet().emailAddress();
-    }
-    public String getPhone() {
-        return faker.phoneNumber().cellPhone().replace("-", "");
     }
     public String getPassword() {
         return faker.internet().password();
